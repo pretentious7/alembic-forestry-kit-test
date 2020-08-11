@@ -7,12 +7,16 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  new_doc_ext: ".md"
   templates:
+  - page
   - page
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  new_doc_ext: ".md"
   templates:
+  - post
   - post
 upload_dir: uploads
 public_path: "/uploads"
